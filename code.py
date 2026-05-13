@@ -13,7 +13,7 @@ layout = KeyboardLayoutUS(kbd)
 
 # Настройка кнопок
 
-pins = [board.D7, board.D9, board.D12, board.D11]
+pins = [board.D7, board.D9, board.D12, board.D10]
 
 buttons = []
 
