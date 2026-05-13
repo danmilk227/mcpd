@@ -34,7 +34,7 @@ MACROS = {
     "COPY": [Keycode.LEFT_CONTROL, Keycode.C],
     "PASTE": [Keycode.LEFT_CONTROL, Keycode.V],
     "HELLO": "Hello, World!\n",
-    "TSKMNGR":[Keycode.LEFT_CONTROL, Keycode.LEFT_SHIFT, Keycode.ESC],
+    "TSKMNGR":[Keycode.LEFT_CONTROL, Keycode.LEFT_SHIFT, Keycode.ESCAPE],
     "EXPLORER":[Keycode.GUI, Keycode.E],
     "PRINTSCREEN":[Keycode.PRINT_SCREEN],
     "CLOSEWINDOWS":[Keycode.GUI, Keycode.D]
