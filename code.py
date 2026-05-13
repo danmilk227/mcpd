@@ -13,7 +13,7 @@ layout = KeyboardLayoutUS(kbd)
 
 # Настройка кнопок
 
-pins = [board.D7, board.D9, board.D12, board.D11]
+pins = [board.D7, board.D9, board.D12, board.D10]
 
 buttons = []
 
@@ -34,16 +34,20 @@ MACROS = {
     "COPY": [Keycode.LEFT_CONTROL, Keycode.C],
     "PASTE": [Keycode.LEFT_CONTROL, Keycode.V],
     "HELLO": "Hello, World!\n",
+    "TSKMNGR":[Keycode.LEFT_CONTROL, Keycode.LEFT_SHIFT, Keycode.ESC],
+    "EXPLORER":[Keycode.GUI, Keycode.E],
+    "PRINTSCREEN":[Keycode.PRINT_SCREEN],
+    "CLOSEWINDOWS":[Keycode.GUI, Keycode.D]
 }
 
 
 # Текущие настройки (будут грузиться из файла)
 
 config = {
-    "btn0": {"short": "A", "long": "COPY"},
-    "btn1": {"short": "B", "long": "PASTE"},
-    "btn2": {"short": "1", "long": "HELLO"},
-    "btn3": {"short": "SPACE", "long": "ENTER"},
+    "btn0": {"short": "TSKMNGR", "long": "COPY"},
+    "btn1": {"short": "EXPLORER", "long": "PASTE"},
+    "btn2": {"short": "CLOSEWINDOWS", "long": "HELLO"},
+    "btn3": {"short": "PRINTSCREEN", "long": "ENTER"},
 }
 
 
